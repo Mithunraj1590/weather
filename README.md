@@ -27,3 +27,18 @@ git clone https://github.com/yourusername/weather-dashboard.git
 cd weather-dashboard
 npm install or yarn install
 npm run dev or yarn dev
+
+
+create a .env file in the root folder and add this "VITE_API_KEY=618f66329067ec213c2fa04518664ac7"
+
+
+
+<-----------------CHALLENGES----------------->
+
+1. Limited Access to Historical Data: I’m facing a hurdle because accessing historical weather data requires a paid API version, which I might not be able to afford. This limitation means I need to adjust my feature set or find alternative ways to offer historical insights.
+
+2. Date Range Selector Plugin Availability: Finding a Vue.js date range selector plugin that matches my design requirements has been difficult. If I can’t find a suitable plugin, I’ll have to create a custom one, which could be quite time-consuming and complex.
+
+3. Custom Date Range Selector Development: Developing a custom date range selector from scratch is challenging and will take significant time. I’ll need to handle everything from date validation to user interface design and integration with the weather data fetching logic.
+
+4. UI/UX Considerations: Making sure the custom date range selector and other UI elements are user-friendly and fit my design requirements will require careful attention and testing.
